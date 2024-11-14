@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HomeScreenIndex from "@/views/home/HomeScreenIndex.vue";
+import HomeScreenIndex from "@/views/home/HomeScreenIndex.vue"
 </script>
 
 <template>
