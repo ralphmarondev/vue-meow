@@ -1,5 +1,17 @@
 <script setup lang="ts">
+import {ref} from "vue"
+import VueCal from "vue-cal";
 
+const selectedDate = ref(null)
+const events = ref([
+  {start: '2024-11-14T10:00:00', end: '2024-11-14T10:00:00', title: 'Sample Event'},
+  {start: '2024-11-15T10:00:00', end: '2024-11-15T10:00:00', title: 'Sample Event'}
+])
+
+// const disabledDates = ref([
+//   '2024-11-16',
+//   '2024-11-17'
+// ])
 </script>
 
 <template>
@@ -22,7 +34,24 @@
           </div>
         </div>
         <div class="col md-7 text-center px-2">
-          <button class="btn btn-outline-primary btn-sm">Fri 09:54</button>
+          <div class="btn-group text-center">
+            <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuCalendar"
+                    data-bs-toggle="dropdown" aria-expanded="false">Thu 11:03
+            </button>
+            <div class="dropdown-menu">
+              <VueCal
+                  v-model="selectedDate"
+                  :events="events"
+                  :show-today="true"
+                  mode="month"
+                  :show-week-number="false"
+                  :show-day-names="true"
+                  :disable-month-change="true"
+                  :disable-year-change="true"
+                  :show-header="false"
+              />
+            </div>
+          </div>
         </div>
         <div class="col-md-3 text-end px-2">
           <div class="btn-group me-2">

@@ -759,6 +759,11 @@ vscode-uri@^3.0.8:
   resolved "https://registry.yarnpkg.com/vscode-uri/-/vscode-uri-3.0.8.tgz#1770938d3e72588659a172d0fd4642780083ff9f"
   integrity sha512-AyFQ0EVmsOZOlAnxoFOGOq1SQDWAB7C6aqMGS23svWAllfOaxbuFvcT8D1i8z3Gyn8fraVeZNNmN6e9bxxXkKw==
 
+vue-cal@^4.10.0:
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/vue-cal/-/vue-cal-4.10.0.tgz#2493f256ad29c504e9776a9eda5ea87eeeb11c2e"
+  integrity sha512-gKOW+UAsUhzJHog/c3dfWN/CwxohpvO4ipBHzDWVngm+R0XZxly8NsGvczYmkfb3pFpuTP29ilAb0ix0sSsULg==
+
 vue-tsc@^2.1.8:
   version "2.1.10"
   resolved "https://registry.yarnpkg.com/vue-tsc/-/vue-tsc-2.1.10.tgz#4d61a64e5fad763b8b40c1884259fd48986f0b4e"
