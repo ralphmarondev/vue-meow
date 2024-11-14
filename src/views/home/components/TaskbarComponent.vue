@@ -7,10 +7,14 @@
     <div class="col">
       <div class="row">
         <div class="mb-3">
-          <img src="@/assets/images/cat.png" alt="Cat" class="sample-app-icon">
+          <button class="btn btn-secondary btn-block">
+            <img src="@/assets/images/cat.png" alt="Cat" class="sample-app-icon">
+          </button>
         </div>
         <div class="mb-3">
-          <img src="@/assets/images/folder.png" alt="Folder" class="sample-app-icon">
+          <button class="btn btn-secondary btn-block">
+            <img src="@/assets/images/folder.png" alt="Folder" class="sample-app-icon">
+          </button>
         </div>
       </div>
     </div>
